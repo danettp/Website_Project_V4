@@ -6,10 +6,29 @@ body {
   color: #5a5a5a;
 }
 
+
+#navbar_logo {
+  height: 60px; 
+}
+
+#navbar_logof {
+  height: 100px; 
+  margin-top: 25px;
+  margin-left: 15px;
+}
+
 .navbar {
   background-color: #556B2F;
   height: 4rem;
-  margin-bottom: 10px;
+}
+
+.nav-item{
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+}
+
+.navbar-nav {
+  margin-left: auto;
 }
 
 /* CUSTOMIZE THE CAROUSEL
